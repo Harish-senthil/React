@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Card from './components/card';
 
-function App() {
+const App = () => {
+
+  const styles = {
+    display: 'flex',
+    gap: '20px'
+    
+  }
+
   return (
-    <div>
-      <h1>Hello</h1>
+    <div style={styles}>
+      <Card />
+      <Card />
+      <Card />
     </div>
-  )
-}
+    
+  );
+};
 
-export default App
+export default App;
