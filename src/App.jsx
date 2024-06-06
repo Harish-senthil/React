@@ -1,21 +1,20 @@
 import React from 'react';
-import Card from './components/card';
+import colu from './components/card';  // Import colu from card.js
 
 const App = () => {
-
   const styles = {
     display: 'flex',
-    gap: '20px'
-    
-  }
+    gap: '20px',
+    justifyContent: 'center',
+    marginTop: '20px'
+  };
 
   return (
     <div style={styles}>
-      <Card />
-      <Card />
-      <Card />
+      <colu.Card />
+      <colu.Card1 />
+      <colu.Card2 />
     </div>
-    
   );
 };
 
