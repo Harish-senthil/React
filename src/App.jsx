@@ -6,7 +6,10 @@ const App = () => {
     display: 'flex',
     gap: '20px',
     justifyContent: 'center',
-    marginTop: '20px'
+    margin: '10px 130px',
+    padding: '40px', 
+    flexWrap: 'wrap',
+    alignItems: 'center'
   };
 
   return (
